@@ -8,3 +8,5 @@ const userSchema = new mongoose.Schema({
 }, {timestamps: true});
 
 module.exports = mongoose.model('User', userSchema);
+
+// a simple comment for push action
